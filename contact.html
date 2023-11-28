@@ -1,0 +1,78 @@
+<DOCTYPE! html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Wanderlust Resort</title>
+
+        <meta name="author" content="Sakura Yabuki">
+        <meta name="description" content="Contact Wanderlust resort">
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Josefin+Sans:wght@200;300;400&display=swap" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="cssobfuscated.css">
+    </head>
+    <body>
+        <header>
+            <h1>Wanderlust Resort</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="accommodations">Accommodations</a></li>
+                    <li><a href="#">Contact</a></li> 
+                </ul>
+            </nav>
+
+        </header>
+
+        <main >
+            <section class="contact">
+                <div class="ctext">
+                    <h2>Contact Us</h2>
+                    <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! Required fields marked with a <span class="required">*</span> </p>
+                    <img src="images/swiss-peak.jpg" alt="Swiss peak overlooking river surrounded by a green forest" width="350" height="455">
+                </div>
+           
+
+                <div>
+                    <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                    <label for="name">Name<span class="required">*</span></label>
+                    <input type="text" name="name" id="name" required>
+
+                    <label for="email">Email<span class="required">*</span></label>
+                    <input type="email" name="email" id="email" required>
+
+                    <label for="my-phone">Phone<span class="required">*</span></label>
+                    <input type="tel" name="phone" id="phone" required>
+
+                    <fieldset>
+                        <legend>Preferred Contact Method<span class="required">*</span></legend>
+                        <input type="radio" name="contact-pref" id="pref-email" checked>
+                        <label for="pref-email">Email</label>
+                        <input type="radio" name="contact-pref" id="pref-phone">
+                        <label for="pref-phone">Phone</label>
+                    </fieldset>
+                    <label for="comments">Comments</label>
+                    <textarea name="comments" id="comments"></textarea>
+                    
+                    <input type="submit" name="submit" id="submit" value="Submit Form">
+                </form>
+            </div>
+            </section>  
+        </main>
+
+        <footer>
+            <p>Copyright ©2023 - Wanderlust</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
+</html>
